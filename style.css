@@ -1,0 +1,67 @@
+/* Famiglia del font scelta a piacere */
+* {
+  font-family: 'Alegreya', serif;
+  margin: 0;
+}
+
+.background {
+  background-image: url(background.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+.container {
+  width: 70%;
+  height: 70%;
+  padding: 10px;
+  background-color: black;
+  border-radius: 15px;
+  background: rgba(0,0,0,0.5);
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.logo-text {
+  color: limegreen;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  border: 1px solid black;
+  background: limegreen;
+  padding: 15px;
+}
+
+.rectangle1 {
+  height: 25px;
+  width: 50px;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.rectangle2 {
+  height: 25px;
+  width: 300px;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.rectangle3 {
+  height: 25px;
+  width: 150px;
+  background-color: orange;
+  border-radius: 5px;
+}
